@@ -15,9 +15,9 @@ const User = () => {
     <div className="user-div">
       <div className="user-title-cont">
         <h1 className="user-title">Edit User</h1>
-        {/* <Link to='/newUser'> */}
-        <button className="user-add-bt">Create</button>
-        {/* </Link> */}
+        <Link className="link" to="/newUser">
+          <button className="user-add-bt">Create</button>
+        </Link>
       </div>
       <div className="user-cont">
         <div className="user-show">

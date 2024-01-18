@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Chart from "chart.js/auto";
 import "./chart.css";
 
-const LineChart = ({ userData }) => {
+const LineChart = ({ userData, title, dataKey, grid }) => {
   const chartRef = useRef(null);
   const chartInstance = useRef(null);
 
@@ -16,8 +16,8 @@ const LineChart = ({ userData }) => {
         labels: userData.map((row) => row.name),
         datasets: [
           {
-            label: "Active Users",
-            data: userData.map((row) => row.activeUser),
+            label: title,
+            data: userData.map((row) => row[dataKey]),
             fill: false,
             borderColor: "rgb(75,192,192)",
             borderWidth: 2,
@@ -26,6 +26,21 @@ const LineChart = ({ userData }) => {
       },
       options: {
         aspectRatio: 4 / 1.2,
+        // grid &&
+        scales: grid
+          ? {
+              x: {
+                grid: {
+                  display: false,
+                },
+              },
+              y: {
+                grid: {
+                  display: false,
+                },
+              },
+            }
+          : {},
       },
     });
 
@@ -38,7 +53,7 @@ const LineChart = ({ userData }) => {
 
   return (
     <div className="chart">
-      <h3 className="chart-title">Active Users</h3>
+      <h3 className="chart-title">{title}</h3>
       <canvas aspect="true" ref={chartRef} />
     </div>
   );

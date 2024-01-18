@@ -46,10 +46,12 @@ const Sidebar = () => {
                 Users
               </li>
             </Link>
-            <li className="list-item">
-              <StorefrontIcon className="icon" />
-              Products
-            </li>
+            <Link to="/products" className="link">
+              <li className="list-item">
+                <StorefrontIcon className="icon" />
+                Products
+              </li>
+            </Link>
             <li className="list-item">
               <AttachMoneyIcon className="icon" />
               Transactions

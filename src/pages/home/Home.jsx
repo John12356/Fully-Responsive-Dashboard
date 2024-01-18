@@ -10,7 +10,11 @@ const Home = () => {
   return (
     <div className="home">
       <FeaturedInfo />
-      <LineChart userData={userData} />
+      <LineChart
+        userData={userData}
+        title="Active Users"
+        dataKey="activeUser"
+      />
       <div className="widgets">
         <MemberWidget />
         <TransWidget />
