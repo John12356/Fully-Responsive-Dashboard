@@ -7,6 +7,10 @@
   z-index: 9999;
   /* margin-bottom: 50px; */
 }
+.navbar.scrolled {
+  background-color: #0f0f0f;
+  transition: all 0.4s ease;
+}
 .navbar .wrapper {
   height: 100%;
   padding: 0 20px;

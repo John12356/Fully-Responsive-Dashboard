@@ -1,12 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import LanguageIcon from "@mui/icons-material/Language";
 import SettingsIcon from "@mui/icons-material/Settings";
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  window.onscroll = () => {
+    setIsScrolled(window.scrollY === 0 ? false : true);
+    return () => (window.onscroll = null);
+  };
+
   return (
-    <div className="navbar">
+    <div className={isScrolled ? "navbar scrolled" : "navbar"}>
       <div className="wrapper">
         <div className="nav-left">
           <span className="logo">Admin Dashboard</span>

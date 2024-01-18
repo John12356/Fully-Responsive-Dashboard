@@ -3,3 +3,9 @@
   margin-top: 60px;
   height: calc(100vh-50px);
 }
+.main-container {
+  flex: 4;
+  margin-left: 220px;
+  width: 100%;
+  /* background-color: #ffdfdf; */
+}

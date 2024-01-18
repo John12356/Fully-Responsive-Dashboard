@@ -40,10 +40,12 @@ const Sidebar = () => {
         <div className="menu">
           <h3 className="sidebar-title">Quick Menu</h3>
           <ul className="sidebar-list">
-            <li className="list-item">
-              <PermIdentityIcon className="icon" />
-              Users
-            </li>
+            <Link to="/user" className="link">
+              <li className="list-item">
+                <PermIdentityIcon className="icon" />
+                Users
+              </li>
+            </Link>
             <li className="list-item">
               <StorefrontIcon className="icon" />
               Products

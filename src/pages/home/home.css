@@ -1,9 +1,6 @@
 .home {
-  flex: 4;
   display: flex;
   flex-direction: column;
-  margin-left: 220px;
-  width: 100%;
 }
 .widgets {
   display: flex;

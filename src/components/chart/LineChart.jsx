@@ -39,7 +39,7 @@ const LineChart = ({ userData }) => {
   return (
     <div className="chart">
       <h3 className="chart-title">Active Users</h3>
-      <canvas aspect ref={chartRef} />
+      <canvas aspect="true" ref={chartRef} />
     </div>
   );
 };
