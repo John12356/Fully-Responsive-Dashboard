@@ -40,7 +40,7 @@ const Sidebar = () => {
         <div className="menu">
           <h3 className="sidebar-title">Quick Menu</h3>
           <ul className="sidebar-list">
-            <Link to="/user" className="link">
+            <Link to="/users" className="link">
               <li className="list-item">
                 <PermIdentityIcon className="icon" />
                 Users

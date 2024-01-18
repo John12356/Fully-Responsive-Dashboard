@@ -15,7 +15,7 @@ const MemberWidget = () => {
           />
           <div className="user">
             <span className="username">HemaPrasad</span>
-            <span className="user-title">Software Engineer</span>
+            <span className="user-desig">Software Engineer</span>
           </div>
           <button className="member-bt">
             <VisibilityIcon className="user-vis-icon" /> Displpay
@@ -30,7 +30,7 @@ const MemberWidget = () => {
           />
           <div className="user">
             <span className="username">HemaPrasad</span>
-            <span className="user-title">Software Engineer</span>
+            <span className="user-desig">Software Engineer</span>
           </div>
           <button className="member-bt">
             <VisibilityIcon className="user-vis-icon" /> Displpay
@@ -45,7 +45,7 @@ const MemberWidget = () => {
           />
           <div className="user">
             <span className="username">HemaPrasad</span>
-            <span className="user-title">Software Engineer</span>
+            <span className="user-desig">Software Engineer</span>
           </div>
           <button className="member-bt">
             <VisibilityIcon className="user-vis-icon" /> Displpay
@@ -60,7 +60,7 @@ const MemberWidget = () => {
           />
           <div className="user">
             <span className="username">HemaPrasad</span>
-            <span className="user-title">Software Engineer</span>
+            <span className="user-desig">Software Engineer</span>
           </div>
           <button className="member-bt">
             <VisibilityIcon className="user-vis-icon" /> Displpay
@@ -75,7 +75,7 @@ const MemberWidget = () => {
           />
           <div className="user">
             <span className="username">HemaPrasad</span>
-            <span className="user-title">Software Engineer</span>
+            <span className="user-desig">Software Engineer</span>
           </div>
           <button className="member-bt">
             <VisibilityIcon className="user-vis-icon" /> Displpay

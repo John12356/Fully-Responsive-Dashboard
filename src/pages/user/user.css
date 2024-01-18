@@ -1,6 +1,5 @@
-.user {
+.user-div {
   padding: 20px;
-  height: calc(100vh-50px);
 }
 .user-title-cont {
   display: flex;

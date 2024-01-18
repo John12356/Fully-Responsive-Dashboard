@@ -12,7 +12,7 @@ import {
 
 const User = () => {
   return (
-    <div className="user">
+    <div className="user-div">
       <div className="user-title-cont">
         <h1 className="user-title">Edit User</h1>
         {/* <Link to='/newUser'> */}

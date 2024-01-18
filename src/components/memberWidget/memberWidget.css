@@ -10,15 +10,9 @@
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   padding: 20px;
   margin-right: 20px;
-  /* overflow: hidden;
-  height: 380px;
-  overflow-y: scroll; */
   border-radius: 10px;
-  margin-bottom: 10px;
+  height: 100%;
 }
-/* .member-widget::-webkit-scrollbar {
-  display: none;
-} */
 .widget-title {
   font-weight: 600;
   font-size: 22px;
@@ -39,7 +33,7 @@
 .username {
   font-weight: 600;
 }
-.user-title {
+.user-design {
   font-weight: 300;
 }
 .member-bt {
@@ -52,6 +46,7 @@
   background-color: #e2e2fa;
   color: #555;
   cursor: pointer;
+  margin: 0;
 }
 .user-vis-icon {
   font-size: 16px !important;

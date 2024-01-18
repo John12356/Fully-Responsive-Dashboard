@@ -2,16 +2,11 @@
   flex: 2;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  padding: 20px 0 20px 20px;
+  padding: 20px;
   border-radius: 10px;
   margin-bottom: 10px;
-  /* height: 380px;
-  overflow: hidden;
-  overflow-y: scroll; */
 }
-/* .trans-widget::-webkit-scrollbar {
-  display: none;
-} */
+
 .widget-img {
   width: 40px;
   height: 40px;
