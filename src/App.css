@@ -9,3 +9,8 @@
   width: 100%;
   /* background-color: #ffdfdf; */
 }
+@media screen and (max-width: 480px) {
+  .main-container {
+    margin-left: 70px;
+  }
+}

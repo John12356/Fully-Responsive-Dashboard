@@ -42,3 +42,10 @@
   color: grey;
   font-size: 15px;
 }
+@media screen and (max-width: 480px) {
+  .featured {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+}

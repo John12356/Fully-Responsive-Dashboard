@@ -6,3 +6,12 @@
   display: flex;
   margin: 10px 20px;
 }
+@media screen and (max-width: 480px) {
+  .widgets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}

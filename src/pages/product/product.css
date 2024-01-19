@@ -109,3 +109,16 @@
   font-weight: 600;
   cursor: pointer;
 }
+@media screen and (max-width: 480px) {
+  .product,
+  .product-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .product-title {
+    margin-right: 20px;
+  }
+}
