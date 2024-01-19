@@ -53,7 +53,7 @@ A fully responsive dashboard is a user interface that automatically adjusts its 
 ## Installation
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone [https://github.com/John12356/Portfolio.git](https://github.com/John12356/Fully-Responsive-Dashboard.git)`
+1. Clone the repository: `git clone (https://github.com/John12356/Fully-Responsive-Dashboard.git)`
 2. Navigate to the project directory: `cd dashboard`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm run ev`
