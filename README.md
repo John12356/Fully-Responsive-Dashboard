@@ -56,7 +56,7 @@ To run this portfolio locally, follow these steps:
 1. Clone the repository: `git clone (https://github.com/John12356/Fully-Responsive-Dashboard.git)`
 2. Navigate to the project directory: `cd dashboard`
 3. Install the dependencies: `npm install`
-4. Start the development server: `npm run ev`
+4. Start the development server: `npm run dev`
 5. Open your browser and visit: `http://localhost:5173`
 
 ## Usage
