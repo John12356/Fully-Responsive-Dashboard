@@ -7,7 +7,7 @@
   top: 50px;
   z-index: 999;
   /* border-radius: 0 10px 10px 0; */
-  min-width: 220px;
+  width: 220px;
 }
 .wrapper {
   padding: 10px 20px 0px 20px;
@@ -41,4 +41,15 @@
 .icon {
   margin-right: 5px;
   font-size: 20px !important;
+}
+@media screen and (max-width: 480px) {
+  .sidebar {
+    width: 70px;
+  }
+  .sidebar-title {
+    display: none;
+  }
+  .list-item span {
+    display: none;
+  }
 }

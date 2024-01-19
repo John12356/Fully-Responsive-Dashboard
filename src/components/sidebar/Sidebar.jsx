@@ -23,16 +23,16 @@ const Sidebar = () => {
             <Link to="/" className="link">
               <li className="list-item active">
                 <LineStyleIcon className="icon" />
-                Home
+                <span>Home</span>
               </li>
             </Link>
             <li className="list-item">
               <TimelineIcon className="icon" />
-              Analytics
+              <span>Analytics</span>
             </li>
             <li className="list-item">
               <TrendingUpIcon className="icon" />
-              Sales
+              <span>Sales</span>
             </li>
           </ul>
         </div>
@@ -43,22 +43,22 @@ const Sidebar = () => {
             <Link to="/users" className="link">
               <li className="list-item">
                 <PermIdentityIcon className="icon" />
-                Users
+                <span>Users</span>
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="list-item">
                 <StorefrontIcon className="icon" />
-                Products
+                <span>Products</span>
               </li>
             </Link>
             <li className="list-item">
               <AttachMoneyIcon className="icon" />
-              Transactions
+              <span>Transactions</span>
             </li>
             <li className="list-item">
               <BarChartIcon className="icon" />
-              Reports
+              <span>Reports</span>
             </li>
           </ul>
         </div>
@@ -68,15 +68,15 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="list-item">
               <MailOutlineIcon className="icon" />
-              Mail
+              <span>Mail</span>
             </li>
             <li className="list-item">
               <DynamicFeedIcon className="icon" />
-              Feedback
+              <span>Feedback</span>
             </li>
             <li className="list-item">
               <ChatBubbleOutlineIcon className="icon" />
-              Messages
+              <span>Messages</span>
             </li>
           </ul>
         </div>
@@ -86,15 +86,15 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="list-item">
               <WorkOutlineIcon className="icon" />
-              Manage
+              <span>Manage</span>
             </li>
             <li className="list-item">
               <TimelineIcon className="icon" />
-              Analytics
+              <span>Analytics</span>
             </li>
             <li className="list-item">
               <ReportIcon className="icon" />
-              Reports
+              <span>Reports</span>
             </li>
           </ul>
         </div>

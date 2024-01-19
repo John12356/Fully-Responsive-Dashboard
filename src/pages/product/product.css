@@ -2,12 +2,16 @@
   flex: 4;
   padding: 0 20px;
 }
+.product-title {
+  margin-left: 20px;
+}
 .product-title-cont {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .product-add-bt {
+  margin-right: 20px;
   width: 80px;
   padding: 5px;
   background-color: teal;
