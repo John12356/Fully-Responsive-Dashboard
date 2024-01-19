@@ -111,7 +111,8 @@
 }
 @media screen and (max-width: 480px) {
   .product,
-  .product-top {
+  .product-top,
+  .product-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -120,5 +121,8 @@
   }
   .product-title {
     margin-right: 20px;
+  }
+  .product-upload {
+    display: none;
   }
 }

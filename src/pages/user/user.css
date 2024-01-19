@@ -131,7 +131,8 @@
 }
 @media screen and (max-width: 480px) {
   .user-div,
-  .user-cont {
+  .user-cont,
+  .user-update-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,5 +141,8 @@
   }
   .user-title {
     margin-right: 20px;
+  }
+  .user-update-upload {
+    display: none;
   }
 }
