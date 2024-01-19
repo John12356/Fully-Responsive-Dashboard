@@ -138,11 +138,26 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: 100%;
+  }
+  .user-show,
+  .user-update,
+  .user-update-form,
+  .user-update-bt {
+    width: 100%;
   }
   .user-title {
     margin-right: 20px;
   }
+  .user-title-cont {
+    width: 100%;
+    margin-top: 0;
+  }
   .user-update-upload {
     display: none;
+  }
+  .user-update {
+    margin-left: 0;
+    margin-top: 10px;
   }
 }

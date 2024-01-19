@@ -121,8 +121,24 @@
   }
   .product-title {
     margin-right: 20px;
+    margin-left: 0;
+  }
+  .product-title-cont {
+    width: 100%;
   }
   .product-upload {
     display: none;
+  }
+  .product-add-bt {
+    margin-right: 0;
+  }
+  .product-top-right {
+    width: 90%;
+    margin: 0;
+  }
+  .product-bottom,
+  .product-form,
+  .product-bt {
+    width: 100%;
   }
 }

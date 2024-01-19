@@ -62,6 +62,7 @@ const Product = () => {
               <option value="yes">Yes</option>
               <option value="no">No</option>
             </select>
+            <label htmlFor="">Active</label>
             <select name="active" id="active">
               <option value="yes">Yes</option>
               <option value="no">No</option>

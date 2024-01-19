@@ -54,7 +54,7 @@ const LineChart = ({ userData, title, dataKey, grid }) => {
   return (
     <div className="chart">
       <h3 className="chart-title">{title}</h3>
-      <canvas aspect="true" ref={chartRef} />
+      <canvas className="chart-canvas" aspect="true" ref={chartRef} />
     </div>
   );
 };

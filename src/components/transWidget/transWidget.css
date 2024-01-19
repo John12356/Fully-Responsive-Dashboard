@@ -47,3 +47,9 @@
   background-color: #ebf1fe;
   color: #2a7ade;
 }
+@media screen and(max-width:480px) {
+  .trans-widget {
+    /* width: 100%; */
+    margin: 0;
+  }
+}

@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import "./navbar.css";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import LanguageIcon from "@mui/icons-material/Language";
+import MenuIcon from "@mui/icons-material/Menu";
 import SettingsIcon from "@mui/icons-material/Settings";
 
-const Navbar = () => {
+const Navbar = ({ setSidebarToggle }) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   window.onscroll = () => {
@@ -16,6 +17,10 @@ const Navbar = () => {
     <div className={isScrolled ? "navbar scrolled" : "navbar"}>
       <div className="wrapper">
         <div className="nav-left">
+          <div className="menu-icon">
+            <MenuIcon onClick={() => setSidebarToggle((prev) => !prev)} />
+          </div>
+
           <span className="logo">Dashboard</span>
         </div>
         <div className="nav-right">
@@ -23,10 +28,10 @@ const Navbar = () => {
             <NotificationsNoneIcon />
             <span className="badge">2</span>
           </div>
-          <div className="nav-right-cont">
+          {/* <div className="nav-right-cont">
             <LanguageIcon />
             <span className="badge">2</span>
-          </div>
+          </div> */}
           <div className="nav-right-cont">
             <SettingsIcon />
           </div>

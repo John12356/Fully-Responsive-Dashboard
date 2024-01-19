@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/navbar/Navbar";
 import Sidebar from "./components/sidebar/Sidebar";
 import Home from "./pages/home/Home";
@@ -12,11 +12,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 const App = () => {
+  const [sidebarToggle, setSidebarToggle] = useState(false);
   return (
     <BrowserRouter>
-      <Navbar />
+      <Navbar setSidebarToggle={setSidebarToggle} />
+
       <div className="container">
-        <Sidebar />
+        <Sidebar sidebarToggle={sidebarToggle} />
         <div className="main-container">
           <Routes>
             <Route index path="/" element={<Home />} />

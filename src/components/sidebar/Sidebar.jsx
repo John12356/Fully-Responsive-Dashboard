@@ -1,4 +1,5 @@
 import "./sidebar.css";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import TimelineIcon from "@mui/icons-material/Timeline";
 import LineStyleIcon from "@mui/icons-material/LineStyle";
@@ -13,9 +14,11 @@ import ChatBubbleOutlineIcon from "@mui/icons-material/ChatBubbleOutline";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import ReportIcon from "@mui/icons-material/Report";
 
-const Sidebar = () => {
+const Sidebar = ({ sidebarToggle }) => {
+  const [sidebar, setSidebar] = useState(false);
+
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${sidebarToggle && "open"}`}>
       <div className="wrapper">
         <div className="menu">
           <h3 className="sidebar-title">Dashboard</h3>
